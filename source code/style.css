@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ysabeau+SC:wght@1..1000&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: roboto;
+    box-sizing: border-box;
+}
+body{
+    margin: 12%;
+    background-color: #0c0c1d;
+}
+.container{
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    color: #fff;
+}
+.container h1{
+    font-size: 45px;
+    padding: 5px;
+    user-select: none;
+}
+.container h1 span{
+    color: rgb(9, 126, 9);
+    border-bottom: 4px solid rgb(9, 126, 9);
+}
+.input{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.input input{
+    flex-basis: 80%;
+    outline: none;
+    font-size: 29px;
+    padding: 25px;
+    border: 0px ;
+    border-radius: 5px;
+}
+.input img{
+    width: 30px;
+    margin-right: 30px;
+}
+.button{
+    background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%);    border-radius: 5px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    font-size: 29px;
+    justify-content: center;
+    padding: 15px 20px;
+    padding-right: 40px;
+    color: #fff;
+    border: 0px;
+    cursor: pointer;
+}
+.button img{
+    width: 30px;
+    margin-right: 20px;
+}
+.input img:hover{
+    cursor: pointer;
+}
